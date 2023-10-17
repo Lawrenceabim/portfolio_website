@@ -9,8 +9,41 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
     />
+    <style>
+    /* Notification Container */
+    .notification-container {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      max-width: 300px;
+      overflow: hidden;
+    }
+
+    /* Notification Panel */
+    .notification-panel {
+      background-color: #4CAF50;
+      color: #fff;
+      padding: 15px;
+      margin: 16px;
+      border-radius: 5px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      cursor: pointer;
+      transition: transform 0.5s ease-in-out;
+    }
+
+    /* Notification Panel Hover Effect */
+    .notification-panel:hover {
+      transform: translateY(-5px);
+    }
+  </style>
   </head>
   <body>
+    <div class="notification-container">
+  <div class="notification-panel">
+    <p>Portfolio Still in Progress Please...</p>
+  </div>
+  <!-- Add more notification panels if needed -->
+</div>
     <div id="header">
       <div class="container">
         <nav>
